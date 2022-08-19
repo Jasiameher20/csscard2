@@ -1,0 +1,707 @@
+body{
+    background-color:rgb(231, 214, 192);
+}
+.all{
+    color: black;
+    text-align: center;
+    display: inline-block;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: left;
+    margin: 50px 30px;
+}
+.card{
+    background-color: aliceblue;
+    width:300px;
+    border-radius: 25px;
+}
+.card img{
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+.card h2{
+    padding: 10px 20px;
+    margin:0;
+}
+.card p{
+    padding: 10px 20px;
+    margin: 0;
+    text-align: justify;
+}
+.card a{
+    padding: 10px 20px;
+    margin: 0;
+}
+.card2{
+    background-color:rgba(0, 0, 0, 0.175);
+    background-image: url(../image/ejN01S.jpg);
+    background-blend-mode: multiply;
+    width:300px;
+}
+
+.card2 img
+{
+    width: 100%;
+}
+.card2 h2{
+    color:black;
+    padding: 10px 20px;
+    margin:0;
+    font-weight: bold;
+    
+}
+.card2 p{
+    
+    padding: 10px 20px;
+    margin: 0;
+    text-align: justify;
+    font-weight: bold;
+}
+.card2 a{
+    color: white;
+    text-decoration: none;
+    background-color: rgb(226, 14, 14);
+    border-radius: 15px;
+    transition: 300ms;
+    padding: 10px 10px;
+    display:inline-block;
+
+    }
+.card2 a:hover
+{
+    background-color: rgb(24, 238, 124);
+    padding: 15px 20px;
+    color: black;
+    border-radius: 25px ;
+}
+.card3{
+    border-radius: 40px;
+    background-color:bisque;
+    border: 2px solid black;
+    width:300px;
+    border-radius: 25px;
+}
+.card3 img{
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+
+.card3 h2{
+    
+    font-weight: bold;
+    padding: 10px 20px;
+    margin:0;
+}
+.card3 p{
+    padding: 10px 20px;
+    margin: 0;
+    text-align: justify;
+}
+.card3 a{
+    color:blue;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    transition: 300ms;
+    padding: 10px 10px;
+    display:inline-block;
+    margin: 0;
+}
+.card3 a:hover
+{
+    background-color: red;
+    padding: 15px 20px;
+    color: black;
+    border-radius: 25px ;
+}
+.card4{
+    border-radius: 25px;
+    background-color:rgba(255, 255, 255, 0.504);
+    background-image: url(../image/photography.jpg);
+    background-blend-mode: multiply;
+    width:300px;
+}
+.card4 img{
+    width: 200px;
+    height: 100px;
+    /*border:3px solid white;*/
+    padding: 30px 0 0 0;
+}
+
+.card4 h2{
+    
+    font-weight: bold;
+    padding: 10px 20px;
+    margin:0;
+}
+.card4 p{
+    
+    padding: 10px 20px;
+    margin: 0;
+    text-align: justify;
+}
+.card4 a{
+    color:blue;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    transition: 300ms;
+    padding: 10px 10px;
+    display:inline-block;
+    margin: 0;
+}
+.card4 a:hover
+{
+    background-color: red;
+    padding: 15px 20px;
+    color: black;
+    border-radius: 25px ;
+}
+.card5{
+    border-radius: 25px;
+    background-color: aliceblue;
+    width:300px;
+}
+.card5 img{
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+.card5 h2{
+    font-weight: bold;
+    padding: 10px 20px;
+    margin:0;
+}
+.card5 p{
+    padding: 10px 20px;
+    margin: 0;
+    text-align: justify;
+}
+.card5 a{
+    color:blue;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    transition: 300ms;
+    padding: 10px 10px;
+    display:inline-block;
+    margin: 0;
+}
+.card5 a:hover
+{
+    background-color:pink;
+    padding: 15px 20px;
+    color: wheat;
+    border-radius: 25px ;
+}
+
+.card6{
+    background-image: url(../image/nature.jpg);
+    width:300px;
+    border-radius: 25px;
+}
+  .card6 img{
+    padding: 40px 20px;
+   /* border: 3px solid white;*/
+    width: 200px;
+    height: 150px;
+    
+}
+
+.card6 h2{
+    padding: 10px 20px;
+    margin:0;
+}
+.card6 p{
+    padding: 10px 20px;
+    margin: 0;
+    text-align: justify;
+}
+.card6 a{
+    color:pink;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    transition: 300ms;
+    padding: 10px 10px;
+    display:inline-block;
+    margin: 0;
+   }
+   .card6 a:hover
+{
+    background-color:pink;
+    padding: 15px 20px;
+    color:white;
+    border-radius: 25px ;
+}
+
+.card7{
+    
+    border-radius: 20%;
+    background: #C9D6FF;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #E2E2E2, #C9D6FF);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #E2E2E2, #C9D6FF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width:300px;
+}
+.card7 img{
+    border-style: dashed;
+    border-radius: 50%;
+    padding: 40px 20px;
+   /* border: 3px solid white;*/
+    width: 200px;
+    height: 150px;
+    }
+
+.card7 h2{
+    padding: 10px 20px;
+    margin:0;
+}
+.card7 p{
+    padding: 10px 20px;
+    margin: 0;
+    text-align: justify;
+}
+.card7 a{
+    color:pink;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    transition: 300ms;
+    padding: 10px 10px;
+    display:inline-block;
+    margin: 0
+   
+}
+.card7 a:hover
+{
+    background-color:pink;
+    padding: 15px 20px;
+    color:white;
+    border-radius: 25px ;
+}
+
+.card8{
+    background-color:  violet;
+    width:300px;
+    border-radius: 20px;
+}
+.card8 iframe{
+    padding: 40px 20px;
+    width: 200px;
+    height: 150px;
+    border-radius: 20px;
+}
+.card8 h2{
+    padding: 10px 20px;
+    margin:0;
+}
+.card8 p{
+    padding: 10px 20px;
+    margin: 0;
+    text-align: justify;
+}
+.card8 a{
+    color:blue;
+    text-decoration: none;
+    background-color: rgb(226, 14, 14);
+    border-radius: 15px;
+    transition: 300ms;
+    padding: 10px 10px;
+    display:inline-block;
+    margin: 0;
+    
+}
+.card8 a:hover
+{
+    background-color:whitesmoke;
+    padding: 15px 20px;
+    color:black;
+    border-radius: 25px ;
+}
+
+.card9{
+    background-color: aliceblue;
+    width:300px;
+    border-radius: 25px;
+}
+.card9 img{
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+
+}
+.card9 h2{
+    padding: 10px 20px;
+    margin:0;
+}
+.card9 p{
+    padding: 10px 20px;
+    margin: 0;
+    text-align: justify;
+}
+.card9 a{
+    color:pink;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    transition: 300ms;
+    padding: 10px 10px;
+    display:inline-block;
+    margin: 0;
+    
+}
+.card9 a:hover
+{
+    background-color:pink;
+    padding: 15px 20px;
+    color:white;
+    border-radius: 25px ;
+}
+.card10{
+    background-color: whitesmoke;
+    width:300px;
+    border: 3px solid black;
+    border-radius: 25px;
+}
+.card10 img{
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 40px 20px;
+}
+.card10 h2{
+    padding: 10px 20px;
+    margin:0;
+}
+.card10 p{
+    padding: 10px 20px;
+    margin: 0;
+    text-align: justify;
+}
+.card10 a{
+    color:pink;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    transition: 300ms;
+    padding: 10px 10px;
+    display:inline-block;
+    margin: 0;
+   
+}
+.card10 a:hover
+{
+    background-color:pink;
+    padding: 15px 20px;
+    color:white;
+    border-radius: 25px ;
+}
+.card11{
+    background-color:peachpuff;
+    width:300px;
+    border-radius: 25px;
+    border: 2px solid black;
+}
+.card11 img{
+    width:100px;
+    height: 100px;
+    border-radius: 50%;
+    padding: 40px 20px;
+
+}
+.card11 h2{
+    padding: 10px 20px;
+    margin:0;
+}
+.card11 p{
+    padding: 10px 20px;
+    margin: 0;
+    text-align: justify;
+}
+.card11 a{
+    color:pink;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    transition: 300ms;
+    padding: 10px 10px;
+    display:inline-block;
+    margin: 0;
+   
+}
+.card11 a:hover
+{
+    background-color:pink;
+    padding: 15px 20px;
+    color:white;
+    border-radius: 25px ;
+}
+
+.card12{
+    background: #BA5370;  /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #F4E2D8, #BA5370);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #F4E2D8, #BA5370); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    width:300px;
+    border-radius: 25px;
+}
+.card12 img{
+    width: 50px;
+    height: 50px;
+    padding: 40px 20px;
+
+}
+.card12 h2{
+    padding: 10px 20px;
+    margin:0;
+}
+.card12 p{
+    padding: 10px 20px;
+    margin: 0;
+    text-align: justify;
+}
+.card12 a{
+    color:pink;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    transition: 300ms;
+    padding: 10px 10px;
+    display:inline-block;
+    margin: 0;
+   
+}
+.card12 a:hover
+{
+    background-color:red;
+    padding: 15px 20px;
+    color:white;
+    border-radius: 25px ;
+}
+.card13{
+    background-color: aliceblue;
+    width:300px;
+    border-radius: 25px;
+}
+.card13 img{
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+#twi
+{
+width:30px;
+height:30px;
+}
+#facei
+{
+width:30px;
+height:30px;
+}
+
+#googl
+{
+width:30px;
+height:30px;
+}
+#ins
+{
+width:30px;
+height:30px;
+}
+.card13 h2{
+    padding: 10px 20px;
+    margin:0;
+}
+.card13 p{
+    padding: 10px 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+}
+.card13 a{
+    color:pink;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    transition: 300ms;
+    padding: 10px 10px;
+    display:inline-block;
+    margin: 0;
+}
+.card13 a:hover
+{
+    background-color:red;
+    padding: 15px 20px;
+    color:white;
+    border-radius: 25px ;
+}
+.card14{
+    background-color: aliceblue;
+    width:300px;
+    border-radius: 25px;
+}
+.card14 img{
+    width: 100%;
+    border-radius: 25px 25px 0 0;
+}
+#twi
+{
+width:30px;
+height:30px;
+}
+#facei
+{
+width:30px;
+height:30px;
+}
+
+#googl
+{
+width:30px;
+height:30px;
+}
+#ins
+{
+width:30px;
+height:30px;
+}
+.card14 h2{
+    padding: 10px 20px;
+    margin:0;
+}
+.card14 p{
+    padding: 10px 20px;
+    margin: 0;
+    text-align: center;
+    font-size: 20px;
+}
+.card14 a{
+    color:pink;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    transition: 300ms;
+    padding: 10px 10px;
+    display:inline-block;
+    margin: 0;
+}
+.card14 a:hover
+{
+    background-color:red;
+    padding: 15px 20px;
+    color:white;
+    border-radius: 25px ;
+}
+.card15
+{
+    border-radius: 50px;
+    border: 3px solid black;
+width:300px;
+background: #C9FFBF;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #FFAFBD, #C9FFBF);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #FFAFBD, #C9FFBF); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+.card15 img{
+    width: 50px;
+    height:50px;
+    padding: 40px 20px;
+}
+.card15 h2{
+    padding: 10px 20px;
+    margin:0;
+}
+.card15 p{
+    padding: 10px 20px;
+    margin: 0;
+    text-align: justify;
+}
+.card15 a{
+    color:pink;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    transition: 300ms;
+    padding: 10px 10px;
+    display:inline-block;
+    margin: 0;
+}
+.card15 a:hover
+{
+    background-color:red;
+    padding: 15px 20px;
+    color:white;
+    border-radius: 25px ;
+}
+
+.card16{
+    background-color:whitesmoke;
+    border-radius: 25px;
+    border: 2px solid palevioletred;
+    width:300px;
+}
+.card16 img{
+    width: 50%;
+    border-radius: 50%;
+    padding: 30px 20px;
+}
+.card16 h2{
+    padding: 10px 20px;
+    margin:0;
+}
+.card16 p{
+    padding: 10px 20px;
+    margin: 0;
+    text-align: justify;
+}
+.card16 a{
+    color:pink;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    transition: 300ms;
+    padding: 10px 10px;
+    display:inline-block;
+    margin: 0;
+   }
+   .card16 a:hover
+{
+    background-color:red;
+    padding: 15px 20px;
+    color:white;
+    border-radius: 25px ;
+}
+.card17{
+    background-color:whitesmoke;
+    border-radius: 50%;
+    border: 2px solid palevioletred;
+    width:300px;
+    padding: 0 50px;
+}
+.card17 img{
+    width: 50%;
+    border-radius: 50%;
+    padding: 30px 20px;
+}
+.card17 h2{
+    padding: 10px 20px;
+    margin:0;
+}
+.card17 p{
+    padding: 10px 30px;
+    margin: 0;
+    text-align: justify;
+}
+.card17 a{
+    color:pink;
+    text-decoration: none;
+    background-color: white;
+    border-radius: 15px;
+    transition: 300ms;
+    padding: 20px 10px;
+    display:inline-block;
+    margin: 0;
+   }
+   .card17 a:hover
+{
+    background-color:red;
+    padding: 10px 20px;
+    color:white;
+    border-radius: 25px ;
+}
